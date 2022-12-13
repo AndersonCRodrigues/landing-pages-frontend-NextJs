@@ -17,7 +17,7 @@ export const getStaticProps = async () => {
     data = null;
   }
 
-  if ((!data || !data, length)) {
+  if (!data || !data.length) {
     return {
       notFound: true,
     };

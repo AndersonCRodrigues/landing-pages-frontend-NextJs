@@ -28,7 +28,7 @@ export const getStaticProps = async (ctx) => {
     data = null;
   }
 
-  if ((!data || !data, length)) {
+  if (!data || !data.length) {
     return {
       notFound: true,
     };
