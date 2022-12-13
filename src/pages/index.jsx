@@ -1,5 +1,6 @@
 import Head from 'next/head';
+import {Home } from '../templates/Home';
 
-export default function Home() {
-  return <h1>Oi</h1>;
+export default function Index() {
+  return <Home />;
 }
