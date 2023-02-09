@@ -21,5 +21,5 @@ export const Container = styled.footer`
       padding-top: 0;
       padding-bottom: 0;
     }
-    `}
+  `}
 `;
